@@ -1,0 +1,7 @@
+<ul>
+    {{ range .Results }}
+        <li>{{ . }}</li>
+    {{ else }}
+        <li>No results found.</li>
+    {{ end }}
+</ul>
